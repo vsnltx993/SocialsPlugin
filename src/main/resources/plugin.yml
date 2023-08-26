@@ -7,9 +7,11 @@ website: michael-h.dev
 commands:
   discord:
     description: "Get the Discord invite link."
-    aliases: [ d ]
     usage: "/discord"
   forums:
     description: "Get the forums link."
-    aliases: [ f ]
+    aliases: [ forum ]
     usage: "/forums"
+  vote:
+    description: "Get the vote links."
+    usage: "/vote"

@@ -24,5 +24,6 @@ public final class Socials extends JavaPlugin {
 
         System.out.println("Socials has been disabled!");
 
+        saveConfig(); // Saves the config.yml
     }
 }
