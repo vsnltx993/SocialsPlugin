@@ -1,0 +1,11 @@
+name: Socials
+version: '${project.version}'
+main: dev.michaelh.socials.Socials
+authors: [ MichaelHayden ]
+website: michael-h.dev
+
+commands:
+  discord:
+    description: "Get the Discord invite link."
+    aliases: [ d ]
+    usage: "/discord"
