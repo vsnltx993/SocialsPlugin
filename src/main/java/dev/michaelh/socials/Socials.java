@@ -12,7 +12,7 @@ public final class Socials extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
 
-        System.out.println("Socials has been enabled!");
+        getLogger().info("Socials has been enabled!");
         saveDefaultConfig(); // Copies the config.yml from resources if it doesn't exist
 
         //Commands
@@ -26,7 +26,7 @@ public final class Socials extends JavaPlugin {
     public void onDisable() {
         // Plugin shutdown logic
 
-        System.out.println("Socials has been disabled!");
+        getLogger().info("Socials has been disabled!");
 
         saveConfig(); // Saves the config.yml
     }
