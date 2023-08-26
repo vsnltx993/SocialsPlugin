@@ -9,3 +9,7 @@ commands:
     description: "Get the Discord invite link."
     aliases: [ d ]
     usage: "/discord"
+  forums:
+    description: "Get the forums link."
+    aliases: [ f ]
+    usage: "/forums"
