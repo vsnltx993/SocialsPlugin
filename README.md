@@ -1,2 +1,3 @@
 # SocialsPlugin
- Velocity Plugin
+
+Share your socials on your server.
