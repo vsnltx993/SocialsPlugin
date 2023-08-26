@@ -1,6 +1,7 @@
 package dev.michaelh.socials.Commands;
 
 import dev.michaelh.socials.Socials;
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -19,7 +20,7 @@ public class DiscordCommandExecutor implements CommandExecutor {
             FileConfiguration config = plugin.getConfig();
             if (config.contains("socials.discord")) {
                 String discordLink = config.getString("socials.discord");
-                sender.sendMessage("Discord link: " + discordLink);
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "Discord link: " + discordLink));
             } else {
                 sender.sendMessage("Discord link not set in config.");
             }

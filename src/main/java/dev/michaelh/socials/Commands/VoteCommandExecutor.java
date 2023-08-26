@@ -1,6 +1,7 @@
 package dev.michaelh.socials.Commands;
 
 import dev.michaelh.socials.Socials;
+import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -23,11 +24,11 @@ public class VoteCommandExecutor implements CommandExecutor {
                 String vl3 = config.getString("socials.vote3");
                 String vl4 = config.getString("socials.vote4");
 
-                sender.sendMessage("Vote links:");
-                sender.sendMessage(vl1);
-                sender.sendMessage(vl2);
-                sender.sendMessage(vl3);
-                sender.sendMessage(vl4);
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "Vote links:"));
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', vl1));
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', vl2));
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', vl3));
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', vl4));
             } else {
                 sender.sendMessage("Vote links not set in config.");
             }
