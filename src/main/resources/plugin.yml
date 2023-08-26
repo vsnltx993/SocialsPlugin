@@ -15,3 +15,6 @@ commands:
   vote:
     description: "Get the vote links."
     usage: "/vote"
+  socialsreload:
+    description: "Reload Socials Config"
+    usage: "/socialsreload"

@@ -2,6 +2,7 @@ package dev.michaelh.socials;
 
 import dev.michaelh.socials.Commands.DiscordCommandExecutor;
 import dev.michaelh.socials.Commands.ForumCommandExecutor;
+import dev.michaelh.socials.Commands.ReloadConfig;
 import dev.michaelh.socials.Commands.VoteCommandExecutor;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -18,6 +19,7 @@ public final class Socials extends JavaPlugin {
         getCommand("discord").setExecutor(new DiscordCommandExecutor(this));
         getCommand("forums").setExecutor(new ForumCommandExecutor(this));
         getCommand("vote").setExecutor(new VoteCommandExecutor(this));
+        getCommand("socialsreload").setExecutor(new ReloadConfig(this));
     }
 
     @Override
