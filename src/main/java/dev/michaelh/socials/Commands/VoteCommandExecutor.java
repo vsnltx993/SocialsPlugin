@@ -17,7 +17,7 @@ public class VoteCommandExecutor implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (command.getName().equalsIgnoreCase("vote")) {
             FileConfiguration config = plugin.getConfig();
-            if (config.contains("socials.vote")) {
+            if (config.contains("socials.vote1")) {
                 String vl1 = config.getString("socials.vote1");
                 String vl2 = config.getString("socials.vote2");
                 String vl3 = config.getString("socials.vote3");
