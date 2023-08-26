@@ -1,7 +1,7 @@
 socials:
-  discord: "&chttps://discord.gg/example"
-  forums: "&chttps://example.com/forums"
-  vote1: "&chttps://example.com/vote1"
-  vote2: "&chttps://example.com/vote2"
-  vote3: "&chttps://example.com/vote3"
-  vote4: "&chttps://example.com/vote4"
+  discord: '&chttps://discord.gg/example'
+  forums: '&chttps://example.com/forums'
+  vote1: '&chttps://example.com/vote1'
+  vote2: '&chttps://example.com/vote2'
+  vote3: '&chttps://example.com/vote3'
+  vote4: '&chttps://example.com/vote4'
