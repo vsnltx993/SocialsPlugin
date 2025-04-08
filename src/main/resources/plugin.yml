@@ -9,12 +9,12 @@ commands:
     description: "Get the Discord invite link."
     usage: "/discord"
   forums:
-    description: "Get the forums link."
+    description: "Get the Forum link."
     aliases: [ forum ]
     usage: "/forums"
   vote:
-    description: "Get the vote links."
-    usage: "/vote"
+    description: "Get the Website link."
+    usage: "/website"
   socialsreload:
     description: "Reload Socials Config"
     usage: "/socialsreload"
